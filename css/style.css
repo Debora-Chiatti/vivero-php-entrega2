@@ -1,0 +1,273 @@
+html{
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+    font-size: 62.5%;
+    font-family:'Noto Serif', serif;
+    background-color: #000;
+    overflow-x: hidden;
+    color: rgb(250, 250, 250);
+}
+
+/* -------Nav-------*/
+
+
+.header {
+    width: 100%;
+    height: 20%;
+    font-family:'Noto Serif', serif;
+    background-color: #000;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.header ul li a{
+    color: rgb(250, 150, 0);
+    text-decoration: none;
+    font-size: 3em;
+    align-items: end;
+}
+
+.header ul a img{
+    list-style: none;
+    width: 100px;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    height:30%;
+    position:relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner h2{
+    font-size: 6em;
+    text-align: top;
+    justify-content: center;
+    color: rgb(42, 218, 135);
+}
+
+/*------------------MAIN--------------*/
+
+
+/* ---------------- FOOTER ---------*/
+
+
+
+
+.footer__diseño{
+    font-size: 2em;
+	display: inline;
+	position: relative;
+	width: 100%;
+	}
+
+.footer__diseño div h3{
+	margin-top: 8%;
+	width: 32%;
+	display: inline-block;
+	position: relative;
+	border-style: solid;
+	border-width: 0px 3px 0px 0px;
+	border-color: rgb(42, 218, 135);
+	text-align: center;
+	}
+
+.footer__diseño span{
+	width: 32%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	vertical-align: top;
+	border-color: rgb(255, 255, 255);
+	margin-bottom: 3%;
+	}
+
+.footer__diseño span p{
+	color: rgb(250, 150, 0)
+	}
+
+.footer__diseño span a{
+	display: block;
+	position: relative;
+	text-align: center;
+	color: rgb(250, 150, 0);
+	text-decoration: none;
+	}
+
+.footer__diseño span a:hover{
+	color: rgb(42, 218, 135);
+	font-size: 1.2em;
+	}
+
+.redes-iconos{
+    background-color: rgb(42, 218, 135);
+    width: 50px;
+    margin-bottom: 4%;
+    height: 50px;
+}
+
+
+
+
+/* -------INDEX-------*/
+
+.titulos{
+    text-align: center;
+    font-size: 4em;
+        margin: 0%;
+}
+
+.slogan{
+    font-style: italic;
+    text-align: center;
+    color: rgba(42, 218, 135, 0.7);
+    font-size: 2.5em;
+
+}
+
+.banner--img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner--img img{
+    opacity: 0.7;
+}
+
+/* -------NOSOTROS-------*/
+
+
+
+
+
+/* -------TIENDA-------*/
+
+
+
+.Fotos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30%;
+    list-style: none;
+}
+
+.fotos li img{
+    align-items: center;
+    display: inline;
+}
+
+.tamaño{
+    width: 250px;
+    height: 250px;
+    border-radius:5px;
+}
+
+.Dropdown{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+
+/* -------TIPOLOGÍA_SUCULENTAS-------*/
+
+
+
+
+/* -------Contacto -------*/
+
+
+/*-- Diseño del Formulario--*/
+
+.div__form {
+	display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+	width: 60%;
+	bottom: 35px;
+	}
+
+.div__form--div {
+	margin-top: 2%;	
+	}
+
+
+.div__form--div fieldset{
+	display: block;
+	border-color: rgb(42, 218, 135);
+	border-width: 3px;
+	border-radius: 10px;
+	}
+
+.div__form--div fieldset legend {
+    color: rgb(255, 150, 0);
+    font-size: 3em;
+    left: 10px;
+    }
+    
+
+.div__form--div label{
+    font-size: 2em;
+}
+
+.div__form--div input{
+	position: relative;
+    font-family:'Noto Serif', serif;
+    color: #000;
+    font-size: 1.5em;
+	width: 40%;
+	background-color: rgb(255, 150, 0);
+	padding: 5px 15px;
+	border-width: 3px;	
+	border-color: rgb(50,50,50);
+	border-radius:5px;
+
+	}
+
+.div__form--div input:focus{
+	background-color: rgb(42, 218, 135);
+	color: #000;
+	}
+
+.label {
+	display: inline-block;
+	position: relative;
+	margin-left:30px ;
+	}
+
+.textarea{
+	position: relative;
+	border-radius: 5px;
+	border-color: rgb(50, 50, 50);
+	border-width: 3px;
+	background-color: rgb(255, 150, 0);
+	width: 98%;
+	height: 100%;
+	margin: 2%, 2%, 2%, 2%;
+	font-style: italic;
+	}
+
+.textarea:focus{
+	background-color: rgb(42, 218, 135);
+	color: #000;
+	}
+
+.send-button {
+	justify-content: center;
+	width: 10%;
+
+	}
+
+
